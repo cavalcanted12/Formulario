@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Acadêmico</title>
+
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <h2 class="form-title">
+            Formulário Acadêmico <br> para auto conhecimento do Aluno
+        </h2>
+        <p class="form-description">Este é um Formulário para autodidata do Aluno, <br>conhecer mais sobre seu objetivo
+            na
+            Faculdade.</p>
+
+        <form>
+            <!-- Campo de Texto para o nome -->
+            <label for="name">Nome: </label>
+            <input type="text" id="name" name="name" required /> <br>
+
+            <!-- Campo de Email -->
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required /> <br>
+
+            <!-- Campo de Idade somente para números -->
+            <label for="idade">Idade: </label>
+            <input type="number" id="idade" name="idade" required /> <br>
+
+
+        </form>
+
+        <h3 class="form-description">Para qual Matéria você está se candidatando ?</h3>
+
+        <!-- Campo de caixa para selecionar a matéria que está se candidatando-->
+        <input type="checkbox" id="materia" name="materia" required />
+        <label for="materia">Matemática </label>
+
+        <input type="checkbox" id="materia" name="materia" required />
+        <label for="materia">Português </label>
+
+        <input type="checkbox" id="materia" name="materia" required />
+        <label for="materia">Biologia </label>
+
+        <input type="checkbox" id="materia" name="materia" required />
+        <label for="materia">Ciências </label>
+
+        <input type="checkbox" id="materia" name="materia" required />
+        <label for="materia">História </label>
+
+        <input type="checkbox" id="materia" name="materia" required />
+        <label for="materia">Geografia </label>
+
+        <input type="checkbox" id="materia" name="materia" required />
+        <label for="materia">Artes </label>
+
+        <h3 class="form-description">Qual seu Nível de Escolaridade ?</h3>
+
+
+        <!-- Campo de Caixa para selecionar qual o nível de Escolaridade -->
+        <input type="checkbox" id="level" name="level" required />
+        <label for="level">Ensino Superior Cursando </label>
+
+        <input type="checkbox" id="level" name="level" required />
+        <label for="level">Ensino Superior Completo </label>
+
+        <input type="checkbox" id="level" name="level" required />
+        <label for="level">Mestrado Cursando </label>
+
+        <input type="checkbox" id="level" name="level" required />
+        <label for="level">Mestrado Completo </label>
+
+        <input type="checkbox" id="level" name="level" required />
+        <label for="level">Doutorado Cursando </label>
+
+        <input type="checkbox" id="level" name="level" required />
+        <label for="level">Doutorado Completo </label> <br>
+
+        <label for="mensagem">Descrição: </label>
+        <textarea name="mensagem" id="mensagem" required></textarea>
+
+    </div>
+</body>
+
+</html>
