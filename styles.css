@@ -1,158 +1,111 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
-  }
-  .form-container {
-    margin-bottom: 40px;
-  }
-  .form-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  .form-description {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
-  
-  form, textarea {
-    display: inline-flex;
-    flex-direction: column;
-    width: 300px;
-  }
+.form-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-size: 16px;
+  margin: 20px 0;
+}
+
+form {
+  display: inline-flex;
+  flex-direction: column;
+  width: 300px;
+
+  align-items: center;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  background-color: #f9f9f9;
+}
+
+.form-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.materia-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.materia-list li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+textarea {
+  height: 100px;
+  background-color: white;
+  padding: 0;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
 
 
-  label {
-    margin-bottom: 5px;
-  }
-  input[type="text"],
-  input[type="email"],body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-  }
-  
-  .form-container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .form-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  
-  .form-description {
-    font-size: 16px;
-    margin-bottom: 20px;
-    text-align: center;
-  }input[type="text"],
-  input[type="email"],
-  input[type="number"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  textarea {
-    height: 100px;
-    resize: vertical;
-  }input[type="submit"] {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #3e8e41;
-  }.materia-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .materia-list li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  .materia-list li label {
-    font-weight: bold;
-  }/* Adicionar o estilo para a lista de matérias */
-  .materia-list {
-    list-style: none;
-    padding: 0;
-    margin: 15px 0;
-  }
-  
-  .materia-list li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  .materia-list li label {
-    font-weight: bold;
-  }
-  input[type="number"],
-  input[type="submit"],
-  input[type="checkbox"] {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
+input[type="number"],
+input[type="submit"],
+input[type="checkbox"] {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 
-  .enviar-btn {
-    background-color: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .enviar-btn:hover {
-    background-color: #3e8e41;
-  }
-  
-  .enviar-btn:active {
-    transform: scale(0.9);
-  }.enviar-btn {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  }.enviar-btn {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border: 1px solid #4CAF50;
-  }
-  
-  .enviar-btn:hover {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    border: 1px solid #3e8e41;
-  }
+  text-align: center;
+}
+
+.enviar-btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.enviar-btn:hover {
+  background-color: #3e8e41;
+}
+
+.enviar-btn:active {
+  transform: scale(0.9);
+}

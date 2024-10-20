@@ -14,7 +14,7 @@
         <h2 class="form-title">
             Formulário Acadêmico <br> para auto conhecimento do Aluno
         </h2>
-        <p class="form-description">Este é um Formulário para autodidata do Aluno, <br>conhecer mais sobre seu objetivo
+        <p>Este é um Formulário para autodidata do Aluno, <br>conhecer mais sobre seu objetivo
             na
             Faculdade.</p>
 
@@ -37,26 +37,36 @@
         <h3 class="form-description">Para qual Matéria você está se candidatando ?</h3>
 
         <!-- Campo de caixa para selecionar a matéria que está se candidatando-->
-        <input type="checkbox" id="materia" name="materia" required />
-        <label for="materia">Matemática </label>
-
-        <input type="checkbox" id="materia" name="materia" required />
-        <label for="materia">Português </label>
-
-        <input type="checkbox" id="materia" name="materia" required />
-        <label for="materia">Biologia </label>
-
-        <input type="checkbox" id="materia" name="materia" required />
-        <label for="materia">Ciências </label>
-
-        <input type="checkbox" id="materia" name="materia" required />
-        <label for="materia">História </label>
-
-        <input type="checkbox" id="materia" name="materia" required />
-        <label for="materia">Geografia </label>
-
-        <input type="checkbox" id="materia" name="materia" required />
-        <label for="materia">Artes </label>
+        <ul class="materia-list">
+          <li>
+            <input type="checkbox" id="materia" name="materia" required />
+            <label for="materia">Matemática</label>
+          </li>
+          <li>
+            <input type="checkbox" id="materia" name="materia" required />
+            <label for="materia">Português</label>
+          </li>
+          <li>
+            <input type="checkbox" id="materia" name="materia" required />
+            <label for="materia">Biologia</label>
+          </li>
+          <li>
+            <input type="checkbox" id="materia" name="materia" required />
+            <label for="materia">Ciências</label>
+          </li>
+          <li>
+            <input type="checkbox" id="materia" name="materia" required />
+            <label for="materia">História</label>
+          </li>
+          <li>
+            <input type="checkbox" id="materia" name="materia" required />
+            <label for="materia">Geografia</label>
+          </li>
+          <li>
+            <input type="checkbox" id="materia" name="materia" required />
+            <label for="materia">Artes</label>
+          </li>
+        </ul>
 
         <h3 class="form-description">Qual seu Nível de Escolaridade ?</h3>
 
@@ -83,27 +93,7 @@
         <label for="mensagem">Descrição: </label>
         <textarea name="mensagem" id="mensagem" required></textarea>
 
-        <link rel="stylesheet" href="styles.css"><ul class="materia-list">
-            <li>
-              <input type="checkbox" id="materia" name="materia" required />
-              <label for="materia">Matemática</label>
-            </li>
-            <li>
-              <input type="checkbox" id="materia" name="materia" required />
-              <label for="materia">Português</label>
-            </li>
-            <li>
-              <input type="checkbox" id="materia" name="materia" required />
-              <label for="materia">Biologia</label>
-            </li>
-            <li>
-              <input type="checkbox" id="materia" name="materia" required />
-              <label for="materia">Ciências</label>
-            </li>
-          </ul>
-          
 
-          <button class="enviar-btn">Enviar</button>
-
+        <button class="enviar-btn">Enviar</button>
     </div>
 </body>
