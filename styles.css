@@ -107,7 +107,7 @@ body {
   .materia-list {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 15px 0;
   }
   
   .materia-list li {
@@ -125,4 +125,34 @@ body {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+  }
+
+  .enviar-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .enviar-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .enviar-btn:active {
+    transform: scale(0.9);
+  }.enviar-btn {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }.enviar-btn {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #4CAF50;
+  }
+  
+  .enviar-btn:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    border: 1px solid #3e8e41;
   }
